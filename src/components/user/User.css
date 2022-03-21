@@ -98,7 +98,7 @@ span{
 }
 @media screen and (max-width: 1440px){
     .user-list{
-        max-width:50%;
+        max-width:40%;
     }
 }
 @media screen and (max-width: 1024px){
