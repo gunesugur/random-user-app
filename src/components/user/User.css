@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.user-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size:2rem;
+    min-height: 100vh;
+    background-color:rgba(2, 48, 71, 1);
+    max-width:30%;
+    margin:0px auto;
+    color:#f2cc8f;
+    font-family:sans-serif;
+    box-shadow: 0px 0px 100px 30px rgba(0, 0, 0, 0.5);
+}
+.thumbnail{
+    border-radius:100px;
+    object-fit: cover;
+}
+.img-name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:20px 0px;
+    /* border:3px solid; */
+}
+.img-name p{
+    font-size:3rem;
+    color:#ffb703;
+    font-weight: bold;
+}
+.mail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:20px 0px;
+    /* border:3px solid; */
+}
+span{
+    font-weight: bold;
+    color:#17c3b2;
+}
+.phone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:20px 0px;
+    /* border:3px solid; */
+}
+.city{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:20px 0px;
+    /* border:3px solid; */
+}
+.age{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:20px 0px;
+    /* border:3px solid; */
+}
+.register-date{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:20px 0px;
+    /* border:3px solid; */
+}
+.asset-top{
+    position: absolute;
+}
+.asset-bottom{
+    position: fixed;
+    bottom:0;
+}
+.change-btn{
+    margin:20px 0px;
+}
+.btn{
+    padding:15px 20px;
+    font-size:1.1rem;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-family: sans-serif;
+    background-color:#fca311;
+}
+.btn:hover{
+    background-color:#fe6d73;
+    transition:all 500ms ease;
+    transform:translateY(-5px);
+    cursor:pointer;
+}
+@media screen and (max-width: 1440px){
+    .user-list{
+        max-width:50%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .user-list{
+        max-width:70%;
+    }
+}
+@media screen and (max-width: 768px){
+    .user-list{
+        max-width:80%;
+    }
+}
+@media screen and (max-width: 425px){
+    .user-list{
+        max-width:100%;
+        font-size:1.5rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .user-list{
+        max-width:100%;
+        font-size:1rem;
+    }
+    .img-name p{
+        font-size:2rem;
+    }
+}
