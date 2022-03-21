@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import "./User.css";
-import assetTop from "../../assets/asset-top.svg";
-import assetBottom from "../../assets/asset-bottom.svg";
+
 const User = () => {
 
   const [user, setUser] = useState();
@@ -23,7 +22,6 @@ const User = () => {
 
   return (
     <div className="container">
-      <img className="asset-top" src={assetTop} />
       {user?.map((item, key) => (
         <div className="user-list" key={key}>
           <div className="img-name">
@@ -50,7 +48,6 @@ const User = () => {
           </div>
         </div>
       ))}
-      <img className="asset-bottom" src={assetBottom} />
     </div>
   )
 }

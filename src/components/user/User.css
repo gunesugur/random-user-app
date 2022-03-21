@@ -78,13 +78,6 @@ span{
     margin:20px 0px;
     /* border:3px solid; */
 }
-.asset-top{
-    position: absolute;
-}
-.asset-bottom{
-    position: fixed;
-    bottom:0;
-}
 .change-btn{
     margin:20px 0px;
 }
